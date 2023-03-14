@@ -1,9 +1,9 @@
-from pykinect_azure.k4abt import _k4abt
-from pykinect_azure.k4abt.frame import Frame
-from pykinect_azure.k4abt._k4abtTypes import k4abt_tracker_default_configuration
-from pykinect_azure.k4a.device import Device
-from pykinect_azure.k4a._k4atypes import K4A_WAIT_INFINITE
-from pykinect_azure.utils import get_k4abt_lite_model_path
+from pyKinectAzure.pykinect_azure.k4abt import _k4abt
+from pyKinectAzure.pykinect_azure.k4abt.frame import Frame
+from pyKinectAzure.pykinect_azure.k4abt._k4abtTypes import k4abt_tracker_default_configuration
+from pyKinectAzure.pykinect_azure.k4a.device import Device
+from pyKinectAzure.pykinect_azure.k4a._k4atypes import K4A_WAIT_INFINITE
+from pyKinectAzure.pykinect_azure.utils import get_k4abt_lite_model_path
 
 class Tracker:
 	def __init__(self, calibration, model_type):

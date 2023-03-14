@@ -1,7 +1,7 @@
 import numpy as np
 
-from pykinect_azure.k4abt._k4abtTypes import K4ABT_JOINT_COUNT
-from pykinect_azure.k4abt.joint import Joint
+from pyKinectAzure.pykinect_azure.k4abt._k4abtTypes import K4ABT_JOINT_COUNT
+from pyKinectAzure.pykinect_azure.k4abt.joint import Joint
 
 class Body:
 	def __init__(self, skeleton_handle):

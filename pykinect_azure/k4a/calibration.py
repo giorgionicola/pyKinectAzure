@@ -1,6 +1,6 @@
 import ctypes
 
-from pykinect_azure.k4a import _k4a
+from pyKinectAzure.pykinect_azure.k4a import _k4a
 
 
 class Calibration:

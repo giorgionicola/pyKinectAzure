@@ -1,5 +1,5 @@
 import numpy as np
-from pykinect_azure.k4abt._k4abtTypes import K4ABT_JOINT_NAMES
+from pyKinectAzure.pykinect_azure.k4abt._k4abtTypes import K4ABT_JOINT_NAMES
 
 class Joint:
 	def __init__(self, joint_handle, id):

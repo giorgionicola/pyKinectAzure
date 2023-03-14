@@ -1,7 +1,7 @@
 import ctypes
 
-from pykinect_azure.k4a import _k4a
-from pykinect_azure.k4a.image import Image
+from pyKinectAzure.pykinect_azure.k4a import _k4a
+from pyKinectAzure.pykinect_azure.k4a.image import Image
 
 class Transformation:
 

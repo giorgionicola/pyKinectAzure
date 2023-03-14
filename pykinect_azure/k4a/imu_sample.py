@@ -1,4 +1,4 @@
-from pykinect_azure.utils import getdict
+from pyKinectAzure.pykinect_azure.utils import getdict
 
 class ImuSample:
 
